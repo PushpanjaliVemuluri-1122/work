@@ -7,7 +7,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v4
-    - name: show files
+    - name: Show files
       run: ls -la
     - name: print branch
       run: echo "Building on ${{ github.ref_name }}"  
